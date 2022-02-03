@@ -3,9 +3,9 @@
 A parking lot management program that keeps track of vacant spots and parked cars, can search for cars by color, number.
 
 ## How to run
-```
-$ java -jar main.jar
-```
+Compile ``` $ kotlinc main.kt -include-runtime -d main.jar ```
+
+Start ``` $ java -jar main.jar ```
 ## Example
 ```
 > create 4 
